@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+  
+  
+h1, h2, h3, p{
+    margin-top: 0;
+    
+}
+h1{
+   font-size: 50px;
+   font-weight:400;
+}
+
+h2{
+   font-size: 40px;
+   font-weight: 400;
+   border-top: 1px solid #c4c4c4;
+   border-bottom: 1px solid #c4c4c4;
+   padding: 15px 0;
+   margin-bottom: 20px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+p{
+   
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+header{
+    
+    background: #FFFF8A;
+}
+
+.section-two{
+    background: #FFFF8A;
+}
+
+img{
+   height: auto;
+   width: 300px;
+   border-radius: 100px;
+   border: 1px solid black;
+}
+
+.btn{
+    padding: 15px 38px;
+    background: #FFFF8A;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    display:inline-block;
+    margin-top:15px;
+    border: 1px solid black;
+    
+}
+
+.btn-two{
+    background: white;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.btn:active{
+    background: #ee4646;
+}
+
+.span-title{
+    color: #ee4646;
+    display: block;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.span-big{
+    color: #ee4646;
+    display: block;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.color-diff{
+    color: #ee4646;
+    font-weight: 900;
+
+}
+
+.links{
+    color: #ee4646;
+}
+
+.links:hover{
+    color: blue;
+}
