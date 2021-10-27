@@ -1,9 +1,10 @@
 body{
     margin: 0;
+    width: 100%;
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 16px;
 }
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
@@ -15,22 +16,22 @@ h1, h2, h3, p{
     
 }
 h1{
-   font-size: 50px;
+   font-size: 3.5rem;
    font-weight:400;
 }
 
 h2{
-   font-size: 40px;
+   font-size: 2.8rem;
    font-weight: 400;
    border-top: 1px solid #c4c4c4;
    border-bottom: 1px solid #c4c4c4;
-   padding: 15px 0;
-   margin-bottom: 20px;
+   padding: 1rem 0;
+   margin-bottom: 1.2rem;
 }
 
 h3{
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 2rem;
+    margin-bottom: 0.4em;
 }
 
 p{
@@ -39,7 +40,7 @@ p{
 
 .container{
     margin: 0 auto;
-    width: 500px;
+    max-width: 45em;
     text-align: center;
     padding: 50px;
 }
@@ -49,32 +50,44 @@ header{
     background: #FFFF8A;
 }
 
+.header{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+#frontHi{
+    font-size: 3.6rem;
+}
+
+#fontBig{
+    font-size: 5rem;
+}
 .section-two{
     background: #FFFF8A;
 }
 
 img{
-   height: auto;
-   width: 300px;
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
    border-radius: 100px;
    border: 1px solid black;
 }
 
 .btn{
-    padding: 15px 38px;
+    padding: 1.1rem 2.3rem;
     background: #FFFF8A;
     color: black;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: 2rem;
     display:inline-block;
-    margin-top:15px;
+    margin-top:1rem;
     border: 1px solid black;
     
 }
 
 .btn-two{
     background: white;
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
 }
 
 .btn:hover{
@@ -89,7 +102,7 @@ img{
 .span-title{
     color: #ee4646;
     display: block;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 900;
 }
 
