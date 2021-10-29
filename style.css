@@ -4,18 +4,19 @@ html{
 
 
 body{
-    margin: 0;
-    width: 100%;
+    
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
     font-family: 'Roboto', sans-serif;
-    
+    margin: 0;
+    text-align: center;
 }
 body::-webkit-scrollbar {
     display: none; /* for Chrome, Safari, and Opera */
   }
   
-  
+/* ---------------------typography ------------------------*/
+
 h1, h2, h3, p{
     margin-top: 0;
     
@@ -43,21 +44,6 @@ p{
    font-size: 1.5rem;
 }
 
-.container{
-    margin: 0 auto;
-    width: 90%;
-    max-width: 35em;
-    text-align: center;
-    padding: 50px;
-}
-
-header{
-    min-height: 100vh;
-    background: #FFFF8A; 
-    display: flex;
-    align-items: center;
-}
-
 #frontHi{
     font-size: 3.6rem;
 }
@@ -65,9 +51,52 @@ header{
 #fontBig{
     font-size: 5rem;
 }
+.span-title{
+    color: #ee4646;
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.span-big{
+    color: #ee4646;
+    display: block;
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.color-diff{
+    color: #ee4646;
+    font-weight: 900;
+
+}
+
+.links{
+    color: #ee4646;
+}
+
+
+.links:hover{
+    color: grey
+}
+/*===========================lay out==================*/
+.container{
+    padding: 5rem;
+}
+
+header{
+    min-height: 100vh;
+    background: #FFFF8A; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .section-two{
     background: #FFFF8A;
 }
+
+/* misc */
 
 img{
     display: block;
@@ -103,33 +132,7 @@ img{
     background: #ee4646;
 }
 
-.span-title{
-    color: #ee4646;
-    display: block;
-    font-size: 3rem;
-    font-weight: 900;
-}
 
-.span-big{
-    color: #ee4646;
-    display: block;
-    font-size: 62px;
-    font-weight: 900;
-}
-
-.color-diff{
-    color: #ee4646;
-    font-weight: 900;
-
-}
-
-.links{
-    color: #ee4646;
-}
-
-.links:hover{
-    color: blue;
-}
 
 
 @media  ( min-width:750px){
@@ -142,9 +145,8 @@ img{
         align-items: center;
     }
 
-    section .container{
-        width: 80%;
-        
+    .section-one, .section-two{
+        width: 50%;
     }
     .section-two {
         background: #FA8072;
@@ -165,5 +167,8 @@ img{
     }
     .links:hover{
         color: white;
+    }
+    .container{
+        padding: 3rem;
     }
 }
